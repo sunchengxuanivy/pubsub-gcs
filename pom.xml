@@ -29,7 +29,7 @@ under the License.
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <flink.version>1.12.5</flink.version>
+        <flink.version>1.11.0</flink.version>
         <target.java.version>1.8</target.java.version>
         <scala.binary.version>2.12</scala.binary.version>
         <maven.compiler.source>${target.java.version}</maven.compiler.source>
@@ -95,11 +95,11 @@ under the License.
             <artifactId>commons-cli</artifactId>
             <version>1.5.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-shaded-guava</artifactId>
-            <version>30.1.1-jre-15.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.flink</groupId>-->
+<!--            <artifactId>flink-shaded-guava</artifactId>-->
+<!--            <version>30.1.1-jre-15.0</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-gcp-pubsub_2.12</artifactId>
